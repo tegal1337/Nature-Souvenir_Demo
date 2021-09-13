@@ -1,0 +1,66 @@
+@import ../_requirements
+
+.descript-1
+    width: 100%
+    height: 90%
+    background-color: #F7F7F7
+    .isi
+        display: grid
+        grid-template-columns: 2fr 1.5fr 0.4fr
+        font-family: $text
+
+    .kiri
+        background-color: $putih
+        padding: 1vw 10vw
+        h1
+            font-size: 7vw
+        p
+            letter-spacing: 1px
+            font-size: 1.3vw
+            opacity: 0.7
+
+        button
+            border: none
+            background-color: $hitam
+            border-radius: 30px
+            width: 10vw
+            height: 8vh
+
+            &:hover
+                background-color: #2B2B2B
+                transition: all .9s
+
+            a
+                text-decoration: none
+                font-size: 1vw
+                color: #eee
+
+    .tengah
+        img
+            width: 35vw
+
+    .kanan
+        width: 100%
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        .maratus
+            font-size: 1vw
+            border-style: solid
+            border-width: 0.1vw 0
+            border-color: #aaa
+            padding: 1vw
+
+        .tigaratus
+            font-size: 1vw
+            padding: 1vw
+
+        .seket
+            font-size: 1vw
+            border-style: solid
+            border-width: 0.1vw 0
+            border-color: #aaa
+            padding: 1vw
+
+@import ../responsive/_page1respon

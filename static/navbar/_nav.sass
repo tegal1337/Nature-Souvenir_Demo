@@ -1,0 +1,77 @@
+@import ./_requirements
+
+.navigasibar
+    padding: 30px 10%
+    justify-content: space-between
+    display: flex
+    
+    .logo
+        color: $hitam
+        text-decoration: none
+        font-weight: 900
+        font-size: 2.5vw
+        font-family: $logo
+        letter-spacing: 1%
+        &:hover
+            color: #444444
+            transition: all .9s
+
+    ul
+        list-style: none
+        display: flex
+
+        li 
+            a
+                margin-top: 0.2vh
+                margin-left: 1vw
+                display: inline-block
+                border-radius: 10px
+                font-size: 0.8vw  
+                text-decoration: none
+                padding: 8px 30px
+                font-family: $text
+                color: $hitam
+
+                &:hover
+                    color: gray
+                    background-color: #eee
+                    transition: all .9s
+
+    img
+        margin: auto
+        margin-left: 5%
+        width: 5vw
+        height: 5vh
+        cursor: pointer
+
+.container-icon
+    width: 21%
+    height: 5vh
+    display: flex
+
+    .search
+        width: 40vw
+        height: 5vh
+        border-radius: 10px
+
+        input
+            margin: auto
+            margin-top: 3%    
+            padding: 4%
+            border-radius: 10px
+            width: 7vw
+            height: 4vh
+            border: none
+            background-color: #eee
+
+        button
+            background-color: #fff
+            float: right
+            border: none
+            cursor: pointer        
+
+        img
+            align-items: center
+            width: 1.8vw
+
+@import ../responsive/_navrespon
